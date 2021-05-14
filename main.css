@@ -22,6 +22,7 @@
 }
 .topNav { 
     grid-area: topNav; 
+    color: darksalmon;
     background-color: aqua; 
 }
   
