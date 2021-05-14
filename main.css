@@ -24,8 +24,7 @@
     grid-area: topNav; 
     color: darksalmon;
     background-color: aqua; 
-}
-  
+}  
 .subNav { 
     grid-area: subNav;
     background-color: blueviolet;
@@ -52,11 +51,12 @@
       "legalFooter legalFooter legalFooter";
     grid-area: footer;
 }
-.legalFooter { 
-    grid-area: legalFooter;
-    background-color:darkcyan;
-}
 .subFooter { 
     grid-area: subFooter;
     background-color:darksalmon;
+}
+
+.legalFooter { 
+    grid-area: legalFooter;
+    background-color:darkcyan;
 }
