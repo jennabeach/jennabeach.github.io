@@ -33,6 +33,7 @@
 .mainBanner { 
     grid-area: mainBanner;
     background-color: brown;
+    height: 200vh;
 }
     
 .mainBody { 
