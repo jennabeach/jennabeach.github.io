@@ -39,6 +39,7 @@
 .mainBody { 
     grid-area: mainBody;
     background-color: chocolate;
+    height: 500vh;
 } 
 
 .footer {
