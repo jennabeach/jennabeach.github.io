@@ -32,15 +32,13 @@
 
 .mainBanner { 
     grid-area: mainBanner;
-    background-color: brown;
-    height: 200vh;
+    background-color: brown;    
 }
     
 .mainBody { 
     grid-area: mainBody;
     background-color: chocolate;
-    height: 500vh;
-} 
+}
 
 .footer {
     display: grid;
