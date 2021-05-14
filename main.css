@@ -4,13 +4,14 @@
     grid-template-rows: 0.8fr 1.2fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "Nav Nav Nav Nav"
+      "nav nav nav nav"
       "mainBanner mainBanner mainBanner mainBanner"
       "mainBody mainBody mainBody mainBody"
-      "Footer Footer Footer Footer";
-  }
-  .Nav {
+      "footer footer footer footer";
+}
+.nav {
     display: grid;
+    background-color: aliceblue;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
@@ -18,11 +19,30 @@
       "topNav topNav topNav"
       "subNav subNav subNav";
     grid-area: Nav;
-  }
-  .topNav { grid-area: topNav; }
-  .subNav { grid-area: subNav; }
-  .Footer {
+}
+.topNav { 
+    grid-area: topNav; 
+    background-color: aqua; 
+}
+  
+.subNav { 
+    grid-area: subNav;
+    background-color: blueviolet;
+}
+
+.mainBanner { 
+    grid-area: mainBanner;
+    background-color: brown;
+}
+    
+.mainBody { 
+    grid-area: mainBody;
+    background-color: chocolate;
+} 
+
+.footer {
     display: grid;
+    background-color: crimson;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
@@ -30,8 +50,12 @@
       "subFooter subFooter subFooter"
       "legalFooter legalFooter legalFooter";
     grid-area: Footer;
-  }
-  .legalFooter { grid-area: legalFooter; }
-  .subFooter { grid-area: subFooter; }
-  .mainBanner { grid-area: mainBanner; }
-  .mainBody { grid-area: mainBody; }
+}
+.legalFooter { 
+    grid-area: legalFooter;
+    background-color:darkcyan;
+}
+.subFooter { 
+    grid-area: subFooter;
+    background-color:darksalmon;
+}
