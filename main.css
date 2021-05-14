@@ -18,7 +18,7 @@
     grid-template-areas:
       "topNav topNav topNav"
       "subNav subNav subNav";
-    grid-area: Nav;
+    grid-area: nav;
 }
 .topNav { 
     grid-area: topNav; 
@@ -50,7 +50,7 @@
     grid-template-areas:
       "subFooter subFooter subFooter"
       "legalFooter legalFooter legalFooter";
-    grid-area: Footer;
+    grid-area: footer;
 }
 .legalFooter { 
     grid-area: legalFooter;
