@@ -57,6 +57,9 @@
 }
 
 .legalFooter { 
-    grid-area: legalFooter;
+    grid-area: legalFooter;    
     background-color:darkcyan;
+}
+.copyright {
+    text-align: center;
 }
