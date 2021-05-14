@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Nav Nav Nav Nav"
+      "mainBanner mainBanner mainBanner mainBanner"
+      "mainBody mainBody mainBody mainBody"
+      "Footer Footer Footer Footer";
+  }
+  .Nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "topNav topNav topNav"
+      "subNav subNav subNav";
+    grid-area: Nav;
+  }
+  .topNav { grid-area: topNav; }
+  .subNav { grid-area: subNav; }
+  .Footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "subFooter subFooter subFooter"
+      "legalFooter legalFooter legalFooter";
+    grid-area: Footer;
+  }
+  .legalFooter { grid-area: legalFooter; }
+  .subFooter { grid-area: subFooter; }
+  .mainBanner { grid-area: mainBanner; }
+  .mainBody { grid-area: mainBody; }
